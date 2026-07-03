@@ -55,7 +55,7 @@ let drops = [
 ];
 
 // hidden chest — tucked off the path, only opens once 2 blessings are collected
-const chest = { x: pathCX+118, y: 312 };
+const chest = { x: pathCX+118 + 20, y: 312 + 100 };
 let chestOpened = false, chestWarned = false, popupOpen = false;
 
 // ---------- player ----------
