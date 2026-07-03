@@ -132,7 +132,7 @@ function drawDrops(){
 function drawChest(){
   const cx = chest.x, cy = chest.y;
   ctx.save();
-  ctx.translate(cx, cy);
+  ctx.translate(cx + 20, cy + 100);
   // shadow
   ctx.fillStyle='rgba(0,0,0,0.25)';
   ctx.beginPath(); ctx.ellipse(0,11,13,3,0,0,7); ctx.fill();
